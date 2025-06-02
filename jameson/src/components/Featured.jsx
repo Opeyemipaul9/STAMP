@@ -44,7 +44,7 @@ const Featured = () => {
             <div className=" absolute top-[50%] translate-x-9 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-orange-700 text-white cursor-pointer ">
                 <BsChevronCompactRight onClick={nextSlider} />
             </div>
-            <div className="flex top-4 justify-center py-2">
+            <div className="flex top-4 justify-center items-center py-2">
                 {
                     sliders.map((sliderItems, slideIndex) => {
                         <div

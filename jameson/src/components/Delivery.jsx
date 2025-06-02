@@ -4,7 +4,7 @@ import React from "react";
 const Delivery = () => {
     return (
         <div className="w-full bg-white py-16 px-4">
-            <h3 className="text-orange-500 font-bold text-2xl text-center" > Quick Delivery App </h3>
+            <h3 className="text-orange-500 font-bold text-2xl text-center"> Quick Delivery App </h3>
             <div className="py-16 mx-auto grid md:grid-cols-1 lg:grid-cols-2">
                 <img src="https://res.cloudinary.com/ehizeex-shop/image/upload/v1672676822/NetflixApp/Fc_two_phones.6ec9a842f905769677f9_m91off.webp" className="w-[550px] mx-auto my-4" />
                 <div className="flex flex-col justify-center">

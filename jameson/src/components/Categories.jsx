@@ -13,9 +13,9 @@ const Categories = () => {
                 {
                     categories.map((item) => {
                         return (
-                            <div key={item.id} className="p-4 justify-center items-center hover:scale-105 duration-300">
+                            <div key={item.id} className="px-4 justify-center items-center hover:scale-105 duration-300">
                                 <img
-                                    className="object-cover founded-xl w-40 h-10 cursor-pointer shadow-xl"
+                                    className="object-cover rounded-xl w-40 h-10 cursor-pointer shadow-xl"
                                     src={item.img}
                                     alt={item.name}
                                 />

@@ -12,7 +12,7 @@ const TopPicks = () => {
             </h1>
             <div className="lg:flex max-w-[1520px] m-auto py-2 px-2">
                 <Splide options={{ perPage: 4, gap: '1rem', drag: 'free', arrows: false }} >
-                    { 
+                    {
                         topPicks.map((item) => {
                             return (
                                 <SplideSlide key={item.id}>
@@ -28,7 +28,6 @@ const TopPicks = () => {
                                         <img
                                             className="h-[200px] w-full object-cover rounded-3xl cursor-pointer hover:scale-105 ease-out duration-300"
                                             src={item.img} alt={item.title} />
-
                                     </div>
                                 </SplideSlide>
                             )

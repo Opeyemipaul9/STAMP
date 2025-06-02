@@ -23,7 +23,7 @@ const Meal = () => {
                 <div className="flex justify-center md:justify-center mb-6" >
                     <button
                         onClick={() => setFoods(mealsData)}
-                        className="m-1 rounded-2xl border-orange-700 text-white bg-orange-700  hover:bg-white  hover:text-orange-700 hover:border-blue-700">  All </button>
+                        className="m-1 rounded-2xl border-orange-700 text-white bg-orange-700  hover:bg-white  hover:text-orange-700 hover:border-orange-700">  All </button>
                     <button
                         onClick={() => filteredCat('chicken')}
                         className="m-1 rounded-2xl border-orange-700 text-white bg-orange-700  hover:bg-white  hover:text-orange-700 hover:border-orange-700">  Chicken </button>
@@ -48,7 +48,7 @@ const Meal = () => {
                                     alt={item.title}
                                 />
                                 <div className="flex justify-between py-2 px-4">
-                                    <p className="font-bold" >{item.name}</p>
+                                    <p className="font-bold">{item.name}</p>
                                     <p className="bg-orange-700 h-18 w-18 rounded-full -mt-10  text-white py-4 px-2 border-8 font-bold" >
                                         {item.price}
                                     </p>
