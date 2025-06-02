@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@splidejs/react-splide": "^0.7.12",
     "@tailwindcss/vite": "^4.1.8",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
